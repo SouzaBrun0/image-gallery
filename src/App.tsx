@@ -13,7 +13,7 @@ const App: React.FC = () => {
   const handleSearch = async (query: string) => {
     try {
       const results = await fetchImages(query);
-      setImages(results.slice(0, 20)); 
+      setImages(results.slice(0, 20));
     } catch (error) {
       console.error('Erro ao buscar imagens:', error);
     }
