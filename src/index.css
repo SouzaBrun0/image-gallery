@@ -21,7 +21,7 @@ code {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2); /* Aumenta o botão em 20% */
+    transform: scale(1.2); 
   }
   100% {
     transform: scale(1);
